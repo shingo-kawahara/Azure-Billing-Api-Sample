@@ -15,3 +15,9 @@ Azure Functionsにデプロイして利用します。
 ```
 Invoke-RestMethod -Uri "https://xxxxx.azurewebsites.net/api/billing" -Method GET -Body @{code="$functionsKey";subscriptionId="$subscriptionId";clientId="$clientId";clientSecret="$clientSecret";tenantId="$tenantId"}
 ```
+
+## 実装手順
+
+Azure上へ実装手順はQiitaに書きました。
+
+https://qiita.com/shingo_kawahara/items/cc5f41c1cdab5f89747d
